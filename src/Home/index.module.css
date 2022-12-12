@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1em;
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(114, 244, 242, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.bio {
+    color: #0000ff;
+    text-decoration: underline;
+    font-size: 2em;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    column-gap: 2em;
+}
+
+.bio i {
+    font-size: 1em;
+    color: grey;
+    text-decoration: none;
+}
+
+.redirections {
+    color: blue;
+    display: flex;
+    height: 2em;
+    justify-content: space-between;
+}
+
+.redirections img {
+    cursor: pointer;
+    height: inherit;
+}

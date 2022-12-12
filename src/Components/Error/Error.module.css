@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    font-size: 1.5em;
+    color: brown;
+}
